@@ -1,0 +1,175 @@
+/* navbar css */
+.weblogo{
+    width: 68px;
+}
+
+.navbar{
+    background-color: #0000009c !important;
+}
+
+.navbar-nav li{
+    padding: 0 10px;
+}
+
+.navbar-nav li a{
+    color: #fff !important;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.navbar-nav li a {
+    color: #fff !important;
+    font-weight: 100;
+    font-size: 19px;
+}
+
+.navbar-nav li a:hover{
+    background-color: #fbac1b;
+}
+/* navbar css end */
+
+.img123{
+    width: 80%;
+}
+.a{
+    padding-top: 20px;
+    text-transform: uppercase;
+    letter-spacing: 5px; 
+}
+.b{
+    line-height: 35px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    text-align: justify;
+}
+
+.banner{
+    background: url('https://images.pexels.com/photos/1054218/pexels-photo-1054218.jpeg?auto=compress&cs=tinysrgb&w=600');
+    width: 100%;
+  
+}
+
+.banners{
+    background: url('https://media.istockphoto.com/id/1337232523/photo/high-angle-view-of-a-lake-and-forest.jpg?s=2048x2048&w=is&k=20&c=HUkCp1sJPh7ymFrdJD3iTuSr_Aas-TEnphd5cdhs58M=');
+    width: 100%;
+  
+}
+
+.baner {
+    background-image: url('https://pn-paul.netlify.app/image/ourimage.jpg');
+    width: 100%;
+    height: 600px;
+    
+}
+
+.brand  {
+    background-image: url('https://pn-paul.netlify.app/image/brands.jpg');
+    width: 100%;
+    height: 600px;
+    
+}
+.team{
+    background-image: url('https://pn-paul.netlify.app/image/new-our-team.jpg');
+    width: 100%;
+    height: 600px;
+}
+
+.press{
+    background-image: url('https://pn-paul.netlify.app/image/press-new-1.jpg');
+    width: 100%;
+    height: 600px;
+}
+
+.contact{
+    background-image: url('https://pn-paul.netlify.app/image/CONTACT-US.jpg');
+    width: 100%;
+    height: 600px;
+}
+
+.carrers{
+    background-image: url('https://pn-paul.netlify.app/image/new-careers-1.jpg');
+    width: 100%;
+    height: 600px;
+}
+
+.c{
+    margin-top: 102px;
+    font-family: prague;
+    color: #fff;
+    font-size: 60px;
+}
+
+.d{
+    line-height: 40px;
+    letter-spacing: 1px;
+    color: white;
+}
+
+.footer{
+    background: #111215;
+    width:100%;
+    color:white;
+}
+
+.moblogo{
+    display: none;
+}
+
+.f{
+    line-height: 30px;
+    word-spacing: 1px;
+    font-size: 18px;
+    color: aliceblue;
+}
+.icon{
+    font-size:40px;
+    color: orange;
+}
+/* 
+.banner-text {
+    position: absolute;
+   
+    color: #fff;
+    padding: -20px;
+}
+
+.banner-text h4{
+    font-size: 26px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 5px;
+} */
+
+.disclaimer{
+    background-color:black;
+    width: 100%;
+    padding:20px;  
+    
+}
+
+.i{
+    text-align: center;
+    width:100%;
+    
+
+}
+
+@media(max-width:768px) {
+    .img123 {
+      width: 100%;
+      margin-top: 22px;
+  
+    }
+    .moblogo{
+      display: block;
+    }
+    .weblogo{
+      display: none;
+    }
+    .navbar{
+      background: #fcb21b!important;
+    }
+    .mobimg{
+      margin-top: 80px;
+    }
+  }
